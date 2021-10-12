@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\boolean.exe
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\boolean.deps.json
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\boolean.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\boolean.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\boolean.dll
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\ref\boolean.dll
+E:\Intern OCBC\Sesi\Sesi 2\boolean\bin\Debug\net5.0\boolean.pdb
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.dll
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\ref\boolean.dll
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.pdb
+E:\Intern OCBC\Sesi\Sesi 2\boolean\obj\Debug\net5.0\boolean.genruntimeconfig.cache
