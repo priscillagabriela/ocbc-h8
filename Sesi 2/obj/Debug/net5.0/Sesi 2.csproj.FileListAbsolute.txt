@@ -1,0 +1,5 @@
+E:\Intern OCBC\Sesi\Sesi 2\obj\Debug\net5.0\Sesi 2.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 2\obj\Debug\net5.0\Sesi 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 2\obj\Debug\net5.0\Sesi 2.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\obj\Debug\net5.0\Sesi 2.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 2\obj\Debug\net5.0\Sesi 2.csproj.CoreCompileInputs.cache
