@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\No2.exe
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\No2.deps.json
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\No2.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\No2.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\No2.dll
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\ref\No2.dll
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\bin\Debug\net5.0\No2.pdb
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.dll
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\ref\No2.dll
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.pdb
+E:\Intern OCBC\Sesi\Sesi 4\assignment1\No2\obj\Debug\net5.0\No2.genruntimeconfig.cache
