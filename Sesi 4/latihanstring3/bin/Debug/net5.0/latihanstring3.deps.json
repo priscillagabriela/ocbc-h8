@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "latihanstring3/1.0.0": {
+        "runtime": {
+          "latihanstring3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "latihanstring3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

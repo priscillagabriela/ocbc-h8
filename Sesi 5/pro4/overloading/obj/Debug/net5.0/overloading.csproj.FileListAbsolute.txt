@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\overloading.exe
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\overloading.deps.json
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\overloading.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\overloading.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\overloading.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\ref\overloading.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\bin\Debug\net5.0\overloading.pdb
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\ref\overloading.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.pdb
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overloading\obj\Debug\net5.0\overloading.genruntimeconfig.cache

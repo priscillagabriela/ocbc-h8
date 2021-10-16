@@ -1,0 +1,34 @@
+Link github: https://github.com/priscillagabriela/ocbc-h8.git
+
+Panduan penggunaan aplikasi:
+Nomor 1:
+- Jalankan kode dengan mono (run) atau dengan c# (ketik "dotnet new console", kemudian ketik "dotnet run" pada terminal)
+- Pilih angka 1 untuk membentuk segitiga alphabet (ABC..) atau pilih angka 2 untuk membentuk segitiga bintang (*)
+- Masukkan nilai range untuk segitiga
+- Program akan menampilkan segitiga sesuai input user
+
+Nomor 2:
+- Jalankan kode dengan mono (run) atau dengan c# (ketik "dotnet new console", kemudian ketik"dotnet run" pada terminal)
+- Pilih angka 1 untuk membentuk segitiga normal atau pilih angka 2 untuk membentuk segitiga terbalik
+- Masukkan nilai range untuk segitiga
+- Program akan menampilkan segitiga sesuai input user
+
+Nomor 3:
+- Jalankan kode dengan mono (run) atau dengan c# (ketik "dotnet new console", kemudian ketik"dotnet run" pada terminal)
+- Masukan angka yang mau dihitung nilai faktorialnya
+- Program akan menampilkan hasil perhitungan faktorial sesuai input user
+
+Nomor 4:
+- Jalankan kode dengan mono (run) atau dengan c# (ketik "dotnet new console", kemudian ketik"dotnet run" pada terminal)
+- Masukan angka yang mau direverse atau dibalikkan
+- Program akan menampilkan hasil reverse dari angka sesuai input user
+
+Nomor 5:
+- Jalankan kode dengan mono (run) atau dengan c# (ketik "dotnet new console", kemudian ketik"dotnet run" pada terminal)
+- Masukan angka yang mau diconvert menjadi string
+- Program akan menampilkan hasil convert dari angka yang diinput user beserta dengan informasi apakah angka genap atau ganjil
+
+Nomor 6:
+- Jalankan kode dengan mono (run) atau dengan c# (ketik "dotnet new console", kemudian ketik"dotnet run" pada terminal)
+- Masukan kata yang mau direverse atau dibalikkan
+- Program akan menampilkan hasil convert dari kata yang diinput user beserta dengan informasi kata adalah palindrom atau bukan

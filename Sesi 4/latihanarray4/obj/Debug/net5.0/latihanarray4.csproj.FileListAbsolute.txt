@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\latihanarray4.exe
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\latihanarray4.deps.json
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\latihanarray4.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\latihanarray4.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\latihanarray4.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\ref\latihanarray4.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\bin\Debug\net5.0\latihanarray4.pdb
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\ref\latihanarray4.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.pdb
+E:\Intern OCBC\Sesi\Sesi 4\latihanarray4\obj\Debug\net5.0\latihanarray4.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\overriding.exe
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\overriding.deps.json
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\overriding.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\overriding.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\overriding.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\ref\overriding.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\bin\Debug\net5.0\overriding.pdb
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\ref\overriding.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.pdb
+E:\Intern OCBC\Sesi\Sesi 5\pro4\overriding\obj\Debug\net5.0\overriding.genruntimeconfig.cache
