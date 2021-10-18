@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\latihandowhile.exe
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\latihandowhile.deps.json
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\latihandowhile.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\latihandowhile.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\latihandowhile.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\ref\latihandowhile.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\bin\Debug\net5.0\latihandowhile.pdb
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\ref\latihandowhile.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.pdb
+E:\Intern OCBC\Sesi\Sesi 3\latihandowhile\obj\Debug\net5.0\latihandowhile.genruntimeconfig.cache

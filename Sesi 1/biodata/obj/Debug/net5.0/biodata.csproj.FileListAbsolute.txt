@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\biodata.exe
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\biodata.deps.json
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\biodata.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\biodata.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\biodata.dll
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\ref\biodata.dll
+E:\Intern OCBC\Sesi\Sesi 1\biodata\bin\Debug\net5.0\biodata.pdb
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.dll
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\ref\biodata.dll
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.pdb
+E:\Intern OCBC\Sesi\Sesi 1\biodata\obj\Debug\net5.0\biodata.genruntimeconfig.cache
