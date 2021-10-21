@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\aritmatika.exe
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\aritmatika.deps.json
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\aritmatika.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\aritmatika.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\aritmatika.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\ref\aritmatika.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\bin\Debug\net5.0\aritmatika.pdb
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\ref\aritmatika.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.pdb
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika\obj\Debug\net5.0\aritmatika.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\latihanlength.exe
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\latihanlength.deps.json
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\latihanlength.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\latihanlength.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\latihanlength.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\ref\latihanlength.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\bin\Debug\net5.0\latihanlength.pdb
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\ref\latihanlength.dll
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.pdb
+E:\Intern OCBC\Sesi\Sesi 4\latihanlength\obj\Debug\net5.0\latihanlength.genruntimeconfig.cache

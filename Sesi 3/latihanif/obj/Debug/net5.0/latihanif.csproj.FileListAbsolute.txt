@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\latihanif.exe
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\latihanif.deps.json
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\latihanif.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\latihanif.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\latihanif.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\ref\latihanif.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\bin\Debug\net5.0\latihanif.pdb
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\ref\latihanif.dll
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.pdb
+E:\Intern OCBC\Sesi\Sesi 3\latihanif\obj\Debug\net5.0\latihanif.genruntimeconfig.cache

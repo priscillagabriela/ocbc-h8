@@ -1,0 +1,131 @@
+CREATE database staff;
+
+CREATE table data_staff(
+	nik int primary key,
+	nama varchar(50),
+	alamat varchar(200),
+	handphone varchar(15)
+)
+
+INSERT INTO data_staff(nik,nama,alamat,handphone)
+VALUES(12347890,'Priscilla','Kopo','0875936287301');
+
+INSERT INTO data_staff(nik,nama,alamat,handphone)
+VALUES(89034257,'Lala','Penjaringan','0894382715694');
+
+ALTER table data_staff ADD joindate Date;
+
+INSERT INTO data_staff(nik,nama,alamat,handphone,joindate)
+VALUES(39074256,'Verr','Dipati Ukur','0874390218521','10-20-2019');
+
+SELECT TOP 2 nik
+FROM data_staff
+ORDER BY nik DESC; 
+
+SELECT TOP 3 nik
+FROM data_staff
+ORDER BY nik DESC;
+
+SELECT * FROM data_staff;
+
+SELECT ts.*, ts.nis, ts.nama from tbl_siswa ts;
+
+SELECT * from tbl_siswa;
+
+CREATE table staffoutsource(
+	nik int primary key,
+	nama varchar(50),
+	alamat varchar(200),
+	handphone varchar(15),
+	joindate Date
+)
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(78403823,'Cher','TKI','0848356201934', '02-09-2019');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(68032564,'Darr','Soekarno Hatta','0835269718293', '01-18-2019');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(48403726,'Elle','Cijerah','0864709832461','10-20-2019');
+
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(74859362,'Jordi','Masuka','0886493820412', '07-08-2020');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(19307583,'Vic','Soekarno Hatta','0804936927251', '11-26-2018');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(38490165,'Elle','Cijerah','0864709832461','08-10-2018');
+
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(89403628,'Yesa','Margaasih','0847830278356', '10-01-2017');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(36710267,'Vill','Rengganis','0846738920512', '12-21-2019');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(84720156,'Aldy','Dago','0854738901287','10-14-2020');
+
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(97403821,'Nathania','Holis','0867403819256','05-09-2019');
+
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(12347890,'Priscilla','Kopo','0875936287301','07-18-2020');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(89034257,'Lala','Penjaringan','0894382715694','02-23-2019');
+
+INSERT INTO staffoutsource(nik,nama,alamat,handphone,joindate)
+VALUES(39074256,'Verr','Dipati Ukur','0874390218521','10-20-2019');
+
+SELECT * FROM data_staff ds join staffoutsource so
+ON ds.joindate = so.joindate;
+
+SELECT * FROM data_staff ds right join staffoutsource so
+ON ds.nik = so.nik;
+
+SELECT * FROM data_staff ds right join staffoutsource so
+ON ds.joindate = so.joindate;
+
+
+SELECT * FROM data_staff ds left join staffoutsource so
+ON ds.nik = so.nik;
+
+SELECT * FROM data_staff ds left join staffoutsource so
+ON ds.joindate = so.joindate;
+
+
+SELECT * FROM data_staff ds full join staffoutsource so
+ON ds.nik = so.nik;
+
+SELECT * FROM data_staff ds full join staffoutsource so
+ON ds.joindate = so.joindate;
+
+
+
+SELECT a.nik,a.nama FROM data_staff a
+UNION all
+SELECT b.nik,b.nama FROM staffoutsource b;
+
+SELECT nik,nama,joindate from(
+	SELECT nik,nama, joindate FROM data_staff
+	UNION all
+	SELECT nik,nama, joindate FROM staffoutsource 
+) 
+	as namasaya
+	group by nama,nik,joindate;
+
+
+SELECT nik,nama,joindate from(
+	SELECT nik,nama, joindate FROM data_staff
+	UNION all
+	SELECT nik,nama, joindate FROM staffoutsource 
+) 
+	as namasaya
+	group by nama,nik,joindate
+	order by joindate;

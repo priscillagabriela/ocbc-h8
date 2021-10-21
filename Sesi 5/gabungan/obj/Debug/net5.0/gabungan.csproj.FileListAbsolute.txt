@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\gabungan.exe
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\gabungan.deps.json
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\gabungan.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\gabungan.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\gabungan.dll
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\ref\gabungan.dll
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\bin\Debug\net5.0\gabungan.pdb
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.dll
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\ref\gabungan.dll
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.pdb
+E:\Intern OCBC\Sesi\Sesi 5\gabungan\obj\Debug\net5.0\gabungan.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\latstring.exe
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\latstring.deps.json
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\latstring.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\latstring.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\latstring.dll
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\ref\latstring.dll
+E:\Intern OCBC\Sesi\Sesi 2\latstring\bin\Debug\net5.0\latstring.pdb
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.dll
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\ref\latstring.dll
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.pdb
+E:\Intern OCBC\Sesi\Sesi 2\latstring\obj\Debug\net5.0\latstring.genruntimeconfig.cache

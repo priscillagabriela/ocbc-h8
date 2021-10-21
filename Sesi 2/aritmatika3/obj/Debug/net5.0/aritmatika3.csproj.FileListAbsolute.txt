@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\aritmatika3.exe
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\aritmatika3.deps.json
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\aritmatika3.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\aritmatika3.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\aritmatika3.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\ref\aritmatika3.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\bin\Debug\net5.0\aritmatika3.pdb
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\ref\aritmatika3.dll
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.pdb
+E:\Intern OCBC\Sesi\Sesi 2\aritmatika3\obj\Debug\net5.0\aritmatika3.genruntimeconfig.cache

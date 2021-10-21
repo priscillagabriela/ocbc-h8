@@ -1,0 +1,16 @@
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.csproj.AssemblyReference.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.AssemblyInfoInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.AssemblyInfo.cs
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.csproj.CoreCompileInputs.cache
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\pro3.exe
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\pro3.deps.json
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\pro3.runtimeconfig.json
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\pro3.runtimeconfig.dev.json
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\pro3.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\ref\pro3.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro3\bin\Debug\net5.0\pro3.pdb
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\ref\pro3.dll
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.pdb
+E:\Intern OCBC\Sesi\Sesi 5\pro3\obj\Debug\net5.0\pro3.genruntimeconfig.cache
