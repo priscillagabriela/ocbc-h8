@@ -1,0 +1,808 @@
+{
+	"info": {
+		"_postman_id": "39ad712c-c6b8-4c1a-acfa-968670d84808",
+		"name": "Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"cella\",\r\n  \"email\": \"cella@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/authmanagement/register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"authmanagement",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"cella\",\r\n  \"email\": \"cella@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/authmanagement/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"authmanagement",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 12:43:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZDJhN2I2MjYtMDk4MS00NmQ0LTgxNzktMGU3YzMwN2QxYzIxIiwibmJmIjoxNjM0ODIwMjEyLCJleHAiOjE2MzQ4MjIwMTIsImlhdCI6MTYzNDgyMDIxMn0.xyUhyda_d5va-sFzwxYj503ixMlX58wDRCWYQz--4Vo\",\n    \"refreshToken\": \"51096ID9NCW0PDVL0GCBR3GVUAMAPYPITQ3b0b38819-979b-468c-87e7-4c14e67543b7\",\n    \"success\": true,\n    \"errors\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"cella@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/authmanagement/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"authmanagement",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"cella@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/authmanagement/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"authmanagement",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 13:15:18 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns\",\n    \"refreshToken\": \"B1QX6ZX18E4GT0VAOQXN6YKFK4R9NALC98B82b776cd-0e80-497a-9f4d-0f7e09ec899f\",\n    \"success\": true,\n    \"errors\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "RefreshToken",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU3N2FiZmVmLTgyMDYtNGFmNS1iYzJiLTFjYWNmZDZmY2E5NSIsImVtYWlsIjoidmlsbGllbkBnbWFpbC5jb20iLCJzdWIiOiJ2aWxsaWVuQGdtYWlsLmNvbSIsImp0aSI6IjgyZDliNDRkLWIyZjMtNDZkYS1hYWQ5LThhYzBkY2UxZDA3MyIsIm5iZiI6MTYzNDgxOTQ3MCwiZXhwIjoxNjM0ODIxMjcwLCJpYXQiOjE2MzQ4MTk0NzB9.vqG3y3lv20uCAwFKSA-_o1b9zix3WgJz9zfDE0m7lG4\",\r\n  \"refreshToken\": \"LWE6JD9LYZUWCRQC6376RG81P4KBVZ5XRZS324acf09-f058-43b1-8d6c-779f83389afe\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/authmanagement/refreshtoken",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"authmanagement",
+						"refreshtoken"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "RefreshToken",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU3N2FiZmVmLTgyMDYtNGFmNS1iYzJiLTFjYWNmZDZmY2E5NSIsImVtYWlsIjoidmlsbGllbkBnbWFpbC5jb20iLCJzdWIiOiJ2aWxsaWVuQGdtYWlsLmNvbSIsImp0aSI6IjgyZDliNDRkLWIyZjMtNDZkYS1hYWQ5LThhYzBkY2UxZDA3MyIsIm5iZiI6MTYzNDgxOTQ3MCwiZXhwIjoxNjM0ODIxMjcwLCJpYXQiOjE2MzQ4MTk0NzB9.vqG3y3lv20uCAwFKSA-_o1b9zix3WgJz9zfDE0m7lG4\",\r\n  \"refreshToken\": \"LWE6JD9LYZUWCRQC6376RG81P4KBVZ5XRZS324acf09-f058-43b1-8d6c-779f83389afe\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/authmanagement/refreshtoken",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"authmanagement",
+								"refreshtoken"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 12:47:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": null,\n    \"refreshToken\": null,\n    \"success\": false,\n    \"errors\": [\n        \"Token has not yet expired\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "GetPayments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZWVmZGNiMDAtNDAzMC00YmU3LTkyOWQtMjcyMDkxMDA2YjFjIiwibmJmIjoxNjM0ODIwMjg3LCJleHAiOjE2MzQ4MjIwODcsImlhdCI6MTYzNDgyMDI4N30.yUuOznXqkN2X9nLbTfDtWL0omAWVLYr_5yXft-mUIHc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetPayments",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZWVmZGNiMDAtNDAzMC00YmU3LTkyOWQtMjcyMDkxMDA2YjFjIiwibmJmIjoxNjM0ODIwMjg3LCJleHAiOjE2MzQ4MjIwODcsImlhdCI6MTYzNDgyMDI4N30.yUuOznXqkN2X9nLbTfDtWL0omAWVLYr_5yXft-mUIHc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/paymentdetail",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"paymentdetail"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 13:02:06 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"paymentDetailId\": 1,\n        \"cardOwnerName\": \"Priscilla Gabriela\",\n        \"cardNumber\": \"5228791099000012\",\n        \"expirationDate\": \"2024-11-30T00:00:00\",\n        \"securityCode\": \"322\"\n    },\n    {\n        \"paymentDetailId\": 2,\n        \"cardOwnerName\": \"Ellena Sarah\",\n        \"cardNumber\": \"4536000123894827\",\n        \"expirationDate\": \"2023-09-30T00:00:00\",\n        \"securityCode\": \"164\"\n    },\n    {\n        \"paymentDetailId\": 3,\n        \"cardOwnerName\": \"Victorya Massie\",\n        \"cardNumber\": \"3141592653589793\",\n        \"expirationDate\": \"2022-12-31T00:00:00\",\n        \"securityCode\": \"263\"\n    },\n    {\n        \"paymentDetailId\": 4,\n        \"cardOwnerName\": \"Evan Jordi\",\n        \"cardNumber\": \"4544150000550150\",\n        \"expirationDate\": \"2023-07-31T00:00:00.441\",\n        \"securityCode\": \"548\"\n    },\n    {\n        \"paymentDetailId\": 5,\n        \"cardOwnerName\": \"Raymond Agustian\",\n        \"cardNumber\": \"4532670111712127\",\n        \"expirationDate\": \"2022-08-31T00:00:00.149\",\n        \"securityCode\": \"537\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "GetPaymentById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/8",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						"8"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetPaymentById",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/paymentdetail/8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"paymentdetail",
+								"8"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 13:19:11 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"paymentDetailId\": 8,\n    \"cardOwnerName\": \"ni made\",\n    \"cardNumber\": \"3473896720972671\",\n    \"expirationDate\": \"2022-10-21T13:07:39.027\",\n    \"securityCode\": \"444\"\n}"
+				}
+			]
+		},
+		{
+			"name": "CreatePayment",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZWVmZGNiMDAtNDAzMC00YmU3LTkyOWQtMjcyMDkxMDA2YjFjIiwibmJmIjoxNjM0ODIwMjg3LCJleHAiOjE2MzQ4MjIwODcsImlhdCI6MTYzNDgyMDI4N30.yUuOznXqkN2X9nLbTfDtWL0omAWVLYr_5yXft-mUIHc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"paymentDetailId\": 0,\r\n  \"cardOwnerName\": \"villien\",\r\n  \"cardNumber\": \"3473896720972671\",\r\n  \"expirationDate\": \"2024-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"475\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CreatePayment",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZWVmZGNiMDAtNDAzMC00YmU3LTkyOWQtMjcyMDkxMDA2YjFjIiwibmJmIjoxNjM0ODIwMjg3LCJleHAiOjE2MzQ4MjIwODcsImlhdCI6MTYzNDgyMDI4N30.yUuOznXqkN2X9nLbTfDtWL0omAWVLYr_5yXft-mUIHc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"paymentDetailId\": 0,\r\n  \"cardOwnerName\": \"villien\",\r\n  \"cardNumber\": \"3473896720972671\",\r\n  \"expirationDate\": \"2024-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"475\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/paymentdetail",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"paymentdetail"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 13:09:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Location",
+							"value": "https://localhost:5001/api/PaymentDetail?paymentDetailId=8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"paymentDetailId\": 8,\n    \"cardOwnerName\": \"villien\",\n    \"cardNumber\": \"3473896720972671\",\n    \"expirationDate\": \"2024-10-21T13:07:39.027Z\",\n    \"securityCode\": \"475\"\n}"
+				}
+			]
+		},
+		{
+			"name": "UpdatePayment",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"paymentDetailId\": 8,\r\n  \"cardOwnerName\": \"ni made\",\r\n  \"cardNumber\": \"3473896720972671\",\r\n  \"expirationDate\": \"2022-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"444\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/8",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						"8"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "UpdatePayment",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"paymentDetailId\": 8,\r\n  \"cardOwnerName\": \"ni made\",\r\n  \"cardNumber\": \"3473896720972671\",\r\n  \"expirationDate\": \"2022-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"444\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/paymentdetail/8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"paymentdetail",
+								"8"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 13:15:41 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "DeletePayment",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/paymentdetail/8",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"paymentdetail",
+						"8"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "DeletePayment",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjQ3ODFhNTg5LWU0ZTItNDgxYS05N2Y0LWQyZjMxNDgwOTllZCIsImVtYWlsIjoiY2VsbGFAZ21haWwuY29tIiwic3ViIjoiY2VsbGFAZ21haWwuY29tIiwianRpIjoiZjhmNTc2MjItNDc5Mi00N2ZmLThlOWItZjY0MDZiNmM0YjcyIiwibmJmIjoxNjM0ODIyMTE4LCJleHAiOjE2MzQ4MjM5MTgsImlhdCI6MTYzNDgyMjExOH0.1sMXxgFCacEuX1uFZzZHGjfXwsNPTq6BFeb626Rguns",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/paymentdetail/8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"paymentdetail",
+								"8"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 13:19:33 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"paymentDetailId\": 8,\n    \"cardOwnerName\": \"ni made\",\n    \"cardNumber\": \"3473896720972671\",\n    \"expirationDate\": \"2022-10-21T13:07:39.027\",\n    \"securityCode\": \"444\"\n}"
+				}
+			]
+		}
+	]
+}

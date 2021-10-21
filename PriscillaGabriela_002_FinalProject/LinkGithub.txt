@@ -1,0 +1,4 @@
+Nama Peserta	: Priscilla Gabriela
+Kode Peserta	: 002 (FSDO001ONL002)
+Tugas		: Final Project (C#)
+Link Github	: https://github.com/priscillagabriela/ocbc-h8/tree/main/PriscillaGabriela_002_FinalProject

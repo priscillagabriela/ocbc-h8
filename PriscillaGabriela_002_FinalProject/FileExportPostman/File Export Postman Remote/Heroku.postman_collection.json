@@ -1,0 +1,895 @@
+{
+	"info": {
+		"_postman_id": "0e34ee23-e442-43be-995a-947898ab9f68",
+		"name": "Heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"cey\",\r\n  \"email\": \"cey@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/AuthManagement/Register",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"cey\",\r\n  \"email\": \"cey@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/AuthManagement/Register",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"AuthManagement",
+								"Register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 14:42:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiIyNWRhNWZlYy1mZjY0LTQzNWEtODBiMS0wODJhMjAyZGRjOTYiLCJuYmYiOjE2MzQ4MjczNzgsImV4cCI6MTYzNDgyOTE3OCwiaWF0IjoxNjM0ODI3Mzc4fQ.YHn7906tF_7uCzs-zGrf_Qhx9Udas9okcioTqFQRD2A\",\n    \"refreshToken\": \"2UKTW5V2ZUBR3DRAYY2VTKSZDZ91MFL5KUHeb8e96dc-8855-413e-a2ba-6f3c2ff308fa\",\n    \"success\": true,\n    \"errors\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"cey@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/AuthManagement/Login",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"cey@gmail.com\",\r\n  \"password\": \"Ce1234_\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/AuthManagement/Login",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"AuthManagement",
+								"Login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:07:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E\",\n    \"refreshToken\": \"2WXQERW3RT3GNFFWQHRKILJCP8NIJPSFVFF9da1ffb6-5159-4bc7-b987-f9ff1b1906a0\",\n    \"success\": true,\n    \"errors\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "RefreshToken",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E\",\r\n  \"refreshToken\": \"2WXQERW3RT3GNFFWQHRKILJCP8NIJPSFVFF9da1ffb6-5159-4bc7-b987-f9ff1b1906a0\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/AuthManagement/RefreshToken",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"RefreshToken"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "RefreshToken",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E\",\r\n  \"refreshToken\": \"2WXQERW3RT3GNFFWQHRKILJCP8NIJPSFVFF9da1ffb6-5159-4bc7-b987-f9ff1b1906a0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/AuthManagement/RefreshToken",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"AuthManagement",
+								"RefreshToken"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:10:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": null,\n    \"refreshToken\": null,\n    \"success\": false,\n    \"errors\": [\n        \"Token has not yet expired\"\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "GetPayments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetPayments",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"PaymentDetail"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:10:56 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"paymentDetailId\": 1,\n        \"cardOwnerName\": \"Priscilla Gabriela\",\n        \"cardNumber\": \"5228791099000012\",\n        \"expirationDate\": \"2024-11-30T00:00:00\",\n        \"securityCode\": \"322\"\n    },\n    {\n        \"paymentDetailId\": 2,\n        \"cardOwnerName\": \"Ellena Sarah\",\n        \"cardNumber\": \"4536000123894827\",\n        \"expirationDate\": \"2023-09-30T00:00:00\",\n        \"securityCode\": \"164\"\n    },\n    {\n        \"paymentDetailId\": 3,\n        \"cardOwnerName\": \"Victorya Massie\",\n        \"cardNumber\": \"3141592653589793\",\n        \"expirationDate\": \"2022-12-31T00:00:00\",\n        \"securityCode\": \"263\"\n    },\n    {\n        \"paymentDetailId\": 4,\n        \"cardOwnerName\": \"Evan Jordi\",\n        \"cardNumber\": \"4544150000550150\",\n        \"expirationDate\": \"2023-07-31T00:00:00.441\",\n        \"securityCode\": \"548\"\n    },\n    {\n        \"paymentDetailId\": 5,\n        \"cardOwnerName\": \"Raymond Agustian\",\n        \"cardNumber\": \"4532670111712127\",\n        \"expirationDate\": \"2022-08-31T00:00:00.149\",\n        \"securityCode\": \"537\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "GetPaymentById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail/4",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetPaymentById",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail/4",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"PaymentDetail",
+								"4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:11:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"paymentDetailId\": 4,\n    \"cardOwnerName\": \"Evan Jordi\",\n    \"cardNumber\": \"4544150000550150\",\n    \"expirationDate\": \"2023-07-31T00:00:00.441\",\n    \"securityCode\": \"548\"\n}"
+				}
+			]
+		},
+		{
+			"name": "CreatePayment",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"paymentDetailId\": 0,\r\n  \"cardOwnerName\": \"stacey\",\r\n  \"cardNumber\": \"748306586479201\",\r\n  \"expirationDate\": \"2023-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"659\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CreatePayment",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"paymentDetailId\": 0,\r\n  \"cardOwnerName\": \"stacey\",\r\n  \"cardNumber\": \"748306586479201\",\r\n  \"expirationDate\": \"2023-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"659\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"PaymentDetail"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:12:52 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Location",
+							"value": "http://paymentapi-project.herokuapp.com/api/PaymentDetail?paymentDetailId=11"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"paymentDetailId\": 11,\n    \"cardOwnerName\": \"stacey\",\n    \"cardNumber\": \"748306586479201\",\n    \"expirationDate\": \"2023-10-21T13:07:39.027Z\",\n    \"securityCode\": \"659\"\n}"
+				}
+			]
+		},
+		{
+			"name": "UpdatePayment",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"paymentDetailId\": 11,\r\n  \"cardOwnerName\": \"viona\",\r\n  \"cardNumber\": \"8904065864792013\",\r\n  \"expirationDate\": \"2024-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"750\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail/11",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"11"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "UpdatePayment",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"paymentDetailId\": 11,\r\n  \"cardOwnerName\": \"viona\",\r\n  \"cardNumber\": \"8904065864792013\",\r\n  \"expirationDate\": \"2024-10-21T13:07:39.027Z\",\r\n  \"securityCode\": \"750\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail/11",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"PaymentDetail",
+								"11"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:15:43 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "DeletePayment",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail/11",
+					"protocol": "https",
+					"host": [
+						"paymentapi-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"11"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "DeletePayment",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImI1YjY1M2M3LWNjOTAtNDdlMS1hOTE3LWYzMmVkZDEzODUxNiIsImVtYWlsIjoiY2V5QGdtYWlsLmNvbSIsInN1YiI6ImNleUBnbWFpbC5jb20iLCJqdGkiOiJjZWMxMmU0MC00OTllLTQ4MzEtOTdlMi0yOWY3NTkxMTg3MjMiLCJuYmYiOjE2MzQ4Mjg4NDEsImV4cCI6MTYzNDgzMDY0MSwiaWF0IjoxNjM0ODI4ODQxfQ.yj1RTJYriBNVyIktQKBBi8X2crz7YBKmWKqd5EMJk6E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://paymentapi-project.herokuapp.com/api/PaymentDetail/11",
+							"protocol": "https",
+							"host": [
+								"paymentapi-project",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"PaymentDetail",
+								"11"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 15:16:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"paymentDetailId\": 11,\n    \"cardOwnerName\": \"viona\",\n    \"cardNumber\": \"8904065864792013\",\n    \"expirationDate\": \"2024-10-21T13:07:39.027\",\n    \"securityCode\": \"750\"\n}"
+				}
+			]
+		}
+	]
+}

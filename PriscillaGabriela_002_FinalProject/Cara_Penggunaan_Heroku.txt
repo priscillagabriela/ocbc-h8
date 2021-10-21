@@ -1,0 +1,61 @@
+Nama Peserta	: Priscilla Gabriela
+Kode Peserta	: 002 (FSDO001ONL002)
+Tugas		: Final Project (C#)
+Link Heroku	: https://paymentapi-project.herokuapp.com/api/PaymentDetail
+		
+
+PANDUAN & LANGKAH TESTING CRUD OPERATION REST API (TELAH DIDEPLOY DENGAN HEROKU) MENGGUNAKAN POSTMAN
+
+1.	Menguji API Register [POST]
+	- Membuka aplikasi Postman dan memilih method POST
+	- Mengetik https://paymentapi-project.herokuapp.com/api/AuthManagement/Register
+	- Mengisi data register dan mengklik button send
+	- Postman akan menampilkan status dan token
+
+2. 	Menguji API Login [POST]
+	- Membuat request baru dan memilih method POST
+	- Mengetik https://paymentapi-project.herokuapp.com/api/AuthManagement/Login
+	- Mengisi data login dan mengklik button send
+	- Postman akan menampilkan status dan token
+
+3. 	Menguji API RefreshToken [POST]
+	- Membuat request baru dan memilih method POST
+	- Mengetik https://paymentapi-project.herokuapp.com/api/AuthManagement/RefreshToken
+	- Mengisi token dan refresh token berdasarkan yang didapat dari proses login
+	- Mengklik button send
+	- Postman akan menampilkan status dan token
+
+4. 	Menguji API GetPayments [GET]
+	- Membuat request baru dan memilih method GET
+	- Melakukan authorization dengan memasukan token yand didapat dari proses login
+	- Mengetik https://paymentapi-project.herokuapp.com/api/PaymentDetail
+	- Mengklik button send
+	- Postman akan menampilkan semua data payment detail
+
+5. 	Menguji API GetPaymentById [GET]
+	- Membuat request baru dan memilih method GET
+	- Melakukan authorization dengan memasukan token yand didapat dari proses login
+	- Mengetik https://paymentapi-project.herokuapp.com/api/PaymentDetail/{id}
+	- Mengklik button send
+	- Postman akan menampilkan data payment detail berdasarkan id yang direquest
+
+6. 	Menguji API CreatePayment [POST]
+	- Membuat request baru dan memilih method POST
+	- Melakukan authorization dengan memasukan token yand didapat dari proses login
+	- Mengetik https://paymentapi-project.herokuapp.com/api/PaymentDetail
+	- Mengisi data payment detail yang mau diinput dan mengklik button send
+	- Postman akan menampilkan data payment yang baru saja diinput
+
+7. 	Menguji API UpdatePaymentById [PUT]
+	- Membuat request baru dan memilih method PUT
+	- Melakukan authorization dengan memasukan token yand didapat dari proses login
+	- Mengetik https://paymentapi-project.herokuapp.com/api/PaymentDetail/{id}
+	- Mengisi data payment detail yang mau diubah dan mengklik button send
+	- Postman akan menampilkan status dari eksekusi API
+
+8. 	Menguji API DeletePaymentById [DELETE]
+	- Membuat request baru dan memilih method DELETE
+	- Melakukan authorization dengan memasukan token yand didapat dari proses login
+	- Mengetik https://paymentapi-project.herokuapp.com/api/PaymentDetail/{id}
+	- Mengklik button send
+	- Postman akan menampilkan data payment detail yang baru saja dihapus
